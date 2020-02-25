@@ -1,0 +1,108 @@
+
+/* El asterisco es para dar el mismo formato a todo */
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+}
+
+/* //CUADROS IZQUIERDA */
+
+/* CLASE */
+.caja1 {
+border: solid 4px black;
+height: auto;
+width: 920px;
+/* Flexbox */
+display: flex;
+/* flex-direction: column; */
+/* x plano horizontal */
+/* justify-content: space-between; */
+/* y plano vertical */
+/* align-items: ; */
+}
+
+
+.azul1 {
+    background-color: #032868;
+    width: 360px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+
+.cajaBlanca1 {
+    background: white;
+    width: 250px;
+    height: 250px;
+}
+.cajaBlanca2 {
+    background: white;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    align-items: flex-end;
+}
+.cajaRoja1 {
+    background: #EF2B2C;
+    width: 200px;
+    height: 200px;
+}
+.cajaRoja2 {
+    background: #EF2B2C;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: flex-end;
+}
+
+
+/* //RECTANGULOS DERECHA */
+
+.azul2 {
+    background-color: #032868;
+    width: 560px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.rectBlanco1 {
+    background-color: white;
+    width: 555px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.rectRojo1 {
+    background-color: #EF2B2C;
+    width: 500px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.rectBlanco2 {
+    background-color: white;
+    width: 555px;
+    height: 250px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.rectRojo2 {
+    background-color: #EF2B2C;
+    width: 500px;
+    height: 200px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
